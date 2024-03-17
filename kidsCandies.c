@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include <stdlib.h>
 #include <stdbool.h>
 
 // Function to find the greatest number of candies among all kids
@@ -31,29 +31,4 @@ bool* kidsWithCandies(int* candies, int candiesSize, int extraCandies, int* retu
     
     *returnSize = candiesSize;
     return result;
-}
-
-int main() {
-    int candies[] = {2, 3, 5, 1, 3};
-    int extraCandies = 3;
-    int candiesSize = sizeof(candies) / sizeof(candies[0]);
-    int returnSize;
-    
-    bool* result = kidsWithCandies(candies, candiesSize, extraCandies, &returnSize);
-    
-    if (result != NULL) {
-        printf("[");
-        for (int i = 0; i < returnSize; i++) {
-            printf("%s", result[i] ? "true" : "false");
-            if (i != returnSize - 1) {
-                printf(",");
-            }
-        }
-        printf("]\n");
-        free(result);
-    } else {
-        printf("Memory allocation failed.\n");
-    }
-    
-    return 0;
 }
