@@ -1,0 +1,9 @@
+we simple use two-pointer technique
+
+one pointer at the start of the array
+second pointer at the last element of the array
+a bool variable that tells us if its a palindrome or not
+
+we keep moving i forward and j backward, and keep track of the bool variable
+
+if j crosses i and becomes greater than i, we stop the loop and return false because we havent found a valid palindrome
