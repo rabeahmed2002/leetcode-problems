@@ -1,4 +1,4 @@
-#include <stdbool.h> // Include this header for the bool type
+#include <stdbool.h> 
 
 bool canPlaceFlowers(int* flowerbed, int flowerbedSize, int n) {
 

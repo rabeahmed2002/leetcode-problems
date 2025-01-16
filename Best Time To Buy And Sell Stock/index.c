@@ -1,8 +1,6 @@
-// Online C compiler to run C program online
 #include <stdio.h>
 
 int main() {
-    // Write C code here
     
     int prices[]={5,6,7,8,3,4,2,13, 15};
     int pricesSize=sizeof(prices)/sizeof(prices[0]);
@@ -37,7 +35,6 @@ int main() {
         
     }
     
-    //printf("%d", prices[1]);
     printf("Price when bought: %d\n", minPrice);
     printf("Price when sold: %d\n", maxProfit);
     
