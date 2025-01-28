@@ -85,7 +85,8 @@ This repository focuses on solving problems using proven patterns. Below are the
 Currently, I solve problems using the following languages:
 * **Java** (Primary)
 * Python
-* JavaScript (Coming Soon)
+* JavaScript
+* C/C++ 
 
 Feel free to explore the code and adapt it to your preferred language.
 
@@ -124,10 +125,5 @@ Each solution includes:
   * Suggest improvements
   * Add solutions in different languages
   * Share feedback
-
-## Contact
-If you have questions or suggestions, feel free to reach out to me via:
-* **Email**: your-email@example.com
-* **LinkedIn**: Your LinkedIn
 
 Happy coding! 😊
