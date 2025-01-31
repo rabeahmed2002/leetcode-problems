@@ -1,0 +1,14 @@
+in this problem, we use a difference array.
+
+first, we find if  there exists a solution or not by comparing sum of both arrays.
+
+if sum of gas is less and sum of cost is greater, we know we can never find the solution.
+
+if the condition above satisfies, we continue with our code
+
+we keep track in a variable named total, 
+if total is < 0, we reset total value and increment the startingLocation
+if total is > 0, we return the value since we found our starting location.
+
+look at this video for a clear understanding:
+https://www.youtube.com/watch?v=lJwbPZGo05A
